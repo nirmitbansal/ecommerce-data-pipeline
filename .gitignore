@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+data/ecommerce.db
+data/orders_clean.csv

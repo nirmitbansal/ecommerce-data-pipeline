@@ -1,0 +1,6 @@
+order_id,customer_id,order_date,product,category,price,quantity,city
+1,101,2024-01-01,Mouse,Electronics,500,2,Delhi
+2,102,2024-01-02,Keyboard,Electronics,800,1,Mumbai
+3,103,2024-01-03,Notebook,Stationery,50,5,Bangalore
+4,104,2024-01-03,Pencil,Stationery,10,10,Delhi
+5,105,2024-01-04,Earphones,Electronics,1200,1,Chennai
