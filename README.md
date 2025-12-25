@@ -11,3 +11,24 @@ This project demonstrates:
 - 📊 Running SQL-based analytics  
 - 🧱 Modular project structure  
 - 🔄 How to run ETL pipelines locally
+
+**Data Pipeline Workflow**
+
+Extraction
+
+  Reads raw order data from CSV files in the data/ folder.
+
+Transformation
+
+  Cleans nulls and inconsistent values
+
+  Standardizes formats
+
+  Derives additional fields where needed
+
+Loading
+
+  Writes cleaned tables into a SQLite database file
+
+  Ensures tables are indexed for performance
+
