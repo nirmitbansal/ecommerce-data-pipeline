@@ -14,17 +14,20 @@ It takes raw e-commerce order data (CSV), cleans and transforms it, loads it int
 
 **Data Pipeline Workflow**
 
-➜ Extraction  
-- •Reads raw order data from CSV files in the data/ folder.
+➜ Extraction
 
-➜Transformation   
-- •Cleans nulls and inconsistent values
-- •Standardizes formats
-- •Derives additional fields where needed
+     •Reads raw order data from CSV files in the data/ folder.
+
+➜Transformation
+
+     •Cleans nulls and inconsistent values  
+     •Standardizes formats  
+     •Derives additional fields where needed
     
-➜Loading   
-- •Writes cleaned tables into a SQLite database file
-- •Ensures tables are indexed for performance
+➜Loading
+
+     •Writes cleaned tables into a SQLite database file  
+     •Ensures tables are indexed for performance
 
 **🏗️ Architecture**  
 📥 Raw E-commerce Event Files  
