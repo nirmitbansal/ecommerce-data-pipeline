@@ -14,7 +14,7 @@ This project demonstrates:
 
 **Data Pipeline Workflow**
 
-➜ Extraction  
+➜ Extraction
     •Reads raw order data from CSV files in the data/ folder.
 
 ➜Transformation
@@ -22,7 +22,7 @@ This project demonstrates:
     •Standardizes formats  
     •Derives additional fields where needed
     
-➜Loading  
+➜Loading
   •Writes cleaned tables into a SQLite database file  
   •Ensures tables are indexed for performance
 
