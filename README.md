@@ -4,7 +4,7 @@
 This project is a complete end-to-end ETL pipeline built for beginners who want hands-on experience in data engineering, using only Python, Pandas, and SQLite.  
 It takes raw e-commerce order data (CSV), cleans and transforms it, loads it into a database, and runs analytical SQL queries.
 
-This project demonstrates:  
+**This project demonstrates:**  
     🗂️ Data extraction from CSV  
     🧹 Data cleaning & transformation using Pandas  
     🗄️ Loading data into a SQLite database  
@@ -14,15 +14,15 @@ This project demonstrates:
 
 **Data Pipeline Workflow**
 
-➜ Extraction  
+➜ Extraction   
       •Reads raw order data from CSV files in the data/ folder.
 
-➜Transformation  
+➜Transformation   
       •Cleans nulls and inconsistent values  
       •Standardizes formats  
       •Derives additional fields where needed
     
-➜Loading  
+➜Loading   
       •Writes cleaned tables into a SQLite database file  
       •Ensures tables are indexed for performance
 
@@ -39,7 +39,7 @@ This project demonstrates:
 ↓  
 📊 Analytics & KPI Outputs  
 
-🧠 What Makes This Pipeline Great  
+🧠 What Makes This Pipeline Great   
       ✔️ Process **large datasets** without memory issues  
       ✔️ Maintain **data quality** with cleansing rules  
       ✔️ Store efficient Parquet files for reuse  
