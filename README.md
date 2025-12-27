@@ -15,7 +15,7 @@ It takes raw e-commerce order data (CSV), cleans and transforms it, loads it int
 **Data Pipeline Workflow**
 
 ➜ Extraction 
-  •Reads raw order data from CSV files in the data/ folder.
+    •Reads raw order data from CSV files in the data/ folder.
 
 ➜Transformation   
       •Cleans nulls and inconsistent values  
