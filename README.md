@@ -42,12 +42,13 @@ It takes raw e-commerce order data (CSV), cleans and transforms it, loads it int
 ↓  
 📊 Analytics & KPI Outputs  
 
-🧠 What Makes This Pipeline Great   
-      ✔️ Process **large datasets** without memory issues  
-      ✔️ Maintain **data quality** with cleansing rules  
-      ✔️ Store efficient Parquet files for reuse  
-      ✔️ Use DuckDB for **fast SQL analytics**  
-      ✔️ Output KPI tables for business reporting
+🧠 What Makes This Pipeline Great
+
+    ✔️ Process **large datasets** without memory issues  
+    ✔️ Maintain **data quality** with cleansing rules  
+    ✔️ Store efficient Parquet files for reuse  
+    ✔️ Use DuckDB for **fast SQL analytics**  
+    ✔️ Output KPI tables for business reporting
 
 **📁 Repository Structure**
 ```text
