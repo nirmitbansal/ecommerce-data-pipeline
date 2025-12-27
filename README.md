@@ -14,17 +14,17 @@ This project demonstrates:
 
 **Data Pipeline Workflow**
 
-➜ Extraction
-    •Reads raw order data from CSV files in the data/ folder.
+➜ Extraction  
+      •Reads raw order data from CSV files in the data/ folder.
 
-➜Transformation
-    •Cleans nulls and inconsistent values  
-    •Standardizes formats  
-    •Derives additional fields where needed
+➜Transformation  
+      •Cleans nulls and inconsistent values  
+      •Standardizes formats  
+      •Derives additional fields where needed
     
-➜Loading
-  •Writes cleaned tables into a SQLite database file  
-  •Ensures tables are indexed for performance
+➜Loading  
+      •Writes cleaned tables into a SQLite database file  
+      •Ensures tables are indexed for performance
 
 **🏗️ Architecture**  
 📥 Raw E-commerce Event Files  
@@ -40,11 +40,11 @@ This project demonstrates:
 📊 Analytics & KPI Outputs  
 
 🧠 What Makes This Pipeline Great  
-    ✔️ Process **large datasets** without memory issues  
-    ✔️ Maintain **data quality** with cleansing rules  
-    ✔️ Store efficient Parquet files for reuse  
-    ✔️ Use DuckDB for **fast SQL analytics**  
-    ✔️ Output KPI tables for business reporting
+      ✔️ Process **large datasets** without memory issues  
+      ✔️ Maintain **data quality** with cleansing rules  
+      ✔️ Store efficient Parquet files for reuse  
+      ✔️ Use DuckDB for **fast SQL analytics**  
+      ✔️ Output KPI tables for business reporting
 
 **📁 Repository Structure**
 ```text
